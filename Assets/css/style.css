@@ -1,0 +1,43 @@
+.center {
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+header {
+    background-color: #ffffff;
+    height: 65px;
+}
+
+.main {
+    background-color: #4aaaa5;
+    color: white;
+    box-sizing: border-box;
+    width: 150px;
+    margin-left: 200px;
+    padding: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    float: left;
+    clear: both;
+
+}
+
+.main-position {
+    position: relative;
+    left: 80px;
+    border-color: #cccccc;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png");
+}
+
+.nav {
+    float: right;
+}
