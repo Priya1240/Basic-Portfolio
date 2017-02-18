@@ -27,7 +27,7 @@ header {
 .main-position {
     left: 480px;
     border-color: #cccccc;
-	float:left;
+    float: left;
 }
 
 a {
@@ -41,89 +41,102 @@ body {
 .nav {
     float: right;
     font-size: 15px;
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
-.nav a{
-	padding-right: 10px;
-	padding-left: 10px;
+.nav a {
+    font-size: 20px;
+    color: #777777;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-h1, h3 {
-	font-size: 30px;
+
+h1,
+h3 {
+    font-size: 30px;
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', Serif;
     padding-top: 20px;
     color: #4aaaa5;
- }
- 
- .content-wrapper h1, .content-wrapper h3 {
-	border-bottom: 2px solid gray;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	
+}
+
+.content-wrapper h1,
+.content-wrapper h3 {
+    /*flex: 1;*/
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
-	font-size: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .content img {
     height: 150px;
     width: 200px;
     margin-right: 10px;
-	float: left;
+    float: left;
 }
 
 p {
     font-size: 15px;
-	padding-bottom: 10px;
- }
+    padding-bottom: 10px;
+}
 
 .content {
-	padding: 20px;
-	margin-right: 30px;
+    padding: 20px;
+    margin-right: 30px;
     width: 600px;
     height: 480px;
     font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
     margin-top: 40px;
     line-height: 25px;
-	float: left;
-	background-color: white;
-	margin-bottom: 40px;
-	
+    float: left;
+    background-color: white;
+    margin-bottom: 40px;
 }
 
 .social {
-	margin-top: 40px;
-	width: 270px;
-	height: 200px;
-	float: right;
-	background-color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
+    margin-top: 40px;
+    width: 270px;
+    height: 200px;
+    float: right;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .social img {
-	width:60px;
-	height:60px
+    width: 60px;
+    height: 60px
 }
 
 footer {
-	clear: both;
-	height: 95px;
-	text-align: center;
-	background-color: #666666;
-	font-size: 15px;
-	padding-bottom: 40px;
+    clear: both;
+    height: 100px;
+    text-align: center;
+    background-color: #666666;
+    font-size: 20px;
+    padding-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
 }
 
 .footer-text {
-	color: white;
-	padding-top: 60px;
-	margin-top: 40px;
-	border-top: 10px solid #4aaaa5;
+    color: white;
+    padding-top: 30px;
+    /*margin-top: 5px;*/
+    border-top: 10px solid #4aaaa5;
+    bottom: 0;
+    width: 100%;
 }
-	
+
+.sticky-footer {
+    min-height: calc(100vh-265px);
+}
