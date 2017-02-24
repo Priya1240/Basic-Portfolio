@@ -17,7 +17,6 @@ header {
 .main {
     background-color: #4aaaa5;
     color: white;
-    /*box-sizing: border-box;*/
     width: 250px;
     height: 90px;
     padding: 30px;
@@ -65,7 +64,6 @@ h3 {
 
 .content-wrapper h1,
 .social h3 {
-    /*flex: 1;*/
     border-bottom: 2px solid gray;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -73,7 +71,6 @@ h3 {
 
 h3 {
     font-size: 20px;
-    /*margin:auto;*/
 }
 
 .article-image {
@@ -91,27 +88,21 @@ p {
 
 .content {
     padding: 30px;
-    /*margin-right: 20px;*/
     width: 650px;
-    /* height: 480px;*/
     font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
     margin-top: 40px;
     line-height: 25px;
     float: left;
     background-color: white;
-    /*margin-bottom: 40px;*/
-    /*box-sizing: border-box;*/
 }
 
 .social {
     margin-top: 40px;
     width: 270px;
-    /*height: 200px;*/
     float: right;
     background-color: white;
     text-align: center;
     padding: 20px;
-    /*box-sizing: border-box;*/
 }
 
 .social img {
@@ -120,7 +111,6 @@ p {
 }
 
 footer {
-    /*height: 100px;*/
     text-align: center;
     background-color: #666666;
     font-size: 20px;
@@ -129,8 +119,6 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    /*margin-top: 40px;
-    /* box-sizing: border-box;*/
     border-top: 10px solid #4aaaa5;
 }
 
@@ -138,14 +126,12 @@ footer {
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    /*margin-top: 5px;*/
     bottom: 0;
     width: 100%;
 }
 
 .sticky-footer {
-    /*min-height: calc(100vh-170px);*/
-    margin-bottom: 170px;
+    margin-bottom: 150px;
 }
 
 
@@ -187,29 +173,26 @@ input[type=submit] {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
-}                                                                                                                       
+}
 
 
 /*portfolio page*/
 
 .image-container {
     float: left;
-    position: relative; /*Allows absolute positioning of elements within a container*/
-    margin-bottom: 30px;    
+    position: relative;
+    /*Allows absolute positioning of elements within a container*/
+    margin-bottom: 30px;
     margin-top: 30px;
-
 }
-
 
 .image-container img {
     width: 275px;
     height: 200px;
 }
- 
-.image-container:nth-child(even){
-    margin-right: 40px;
 
-     
+.image-container:nth-child(even) {
+    margin-right: 40px;
 }
 
 .image-container h3 {
@@ -219,15 +202,7 @@ input[type=submit] {
     color: white;
     font-weight: normal;
     text-align: center;
-    padding: 20px;  
+    padding: 20px;
     position: absolute;
     bottom: 20px;
-    
 }
-
-
-
-
-
-
-
